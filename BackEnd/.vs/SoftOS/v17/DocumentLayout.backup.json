@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|c:\\users\\rafael.castro\\source\\repos\\softos\\bll\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|solutionrelative:bll\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|c:\\users\\rafael.castro\\source\\repos\\softos\\bll\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|solutionrelative:bll\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|c:\\users\\rafael.castro\\source\\repos\\softos\\api\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|solutionrelative:api\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|c:\\users\\rafael.castro\\source\\repos\\softos\\bll\\models\\profissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|solutionrelative:bll\\models\\profissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|c:\\users\\rafael.castro\\source\\repos\\softos\\bll\\models\\ordemservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|solutionrelative:bll\\models\\ordemservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|c:\\users\\rafael.castro\\source\\repos\\softos\\bll\\models\\iloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC0E700-B861-4C90-A89B-9467EC285CE9}|SoftOS.csproj|solutionrelative:bll\\models\\iloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "BLL\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\Ticket.cs",
+              "RelativeToolTip": "BLL\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:09:52.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\API\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\API\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "API\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:09:03.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profissional.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\Profissional.cs",
+              "RelativeDocumentMoniker": "BLL\\Models\\Profissional.cs",
+              "ToolTip": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\Profissional.cs",
+              "RelativeToolTip": "BLL\\Models\\Profissional.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:53:28.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdemServico.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\OrdemServico.cs",
+              "RelativeDocumentMoniker": "BLL\\Models\\OrdemServico.cs",
+              "ToolTip": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\OrdemServico.cs",
+              "RelativeToolTip": "BLL\\Models\\OrdemServico.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T17:37:31.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\ILoginModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Models\\ILoginModel.cs",
+              "ToolTip": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\ILoginModel.cs",
+              "RelativeToolTip": "BLL\\Models\\ILoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T16:53:04.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "BLL\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\BLL\\Models\\Cliente.cs",
+              "RelativeToolTip": "BLL\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T16:19:26.909Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

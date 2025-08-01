@@ -1,0 +1,508 @@
+[
+  {
+    "ContainingType": "SoftOS.API.Controllers.AuthController",
+    "Method": "LoginCliente",
+    "RelativePath": "Ajax/Auth/login/cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.Shared.DTOs.AuthRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.AuthController",
+    "Method": "LoginProfissional",
+    "RelativePath": "Ajax/Auth/login/profissional",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.Shared.DTOs.AuthRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ClienteController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ClienteController",
+    "Method": "PostAsync",
+    "RelativePath": "Ajax/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ClienteController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ClienteController",
+    "Method": "PutByIdAsync",
+    "RelativePath": "Ajax/Cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ClienteController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "Ajax/Cliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.OrdemServicoController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/OrdemServico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.OrdemServicoController",
+    "Method": "PostAsync",
+    "RelativePath": "Ajax/OrdemServico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.OrdemServico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.OrdemServicoController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/OrdemServico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.OrdemServicoController",
+    "Method": "PutByIdAsync",
+    "RelativePath": "Ajax/OrdemServico/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.OrdemServico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.OrdemServicoController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "Ajax/OrdemServico/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ProfissionalController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Profissional",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ProfissionalController",
+    "Method": "PostAsync",
+    "RelativePath": "Ajax/Profissional",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Profissional",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ProfissionalController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Profissional/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ProfissionalController",
+    "Method": "PutByIdAsync",
+    "RelativePath": "Ajax/Profissional/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Profissional",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.ProfissionalController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "Ajax/Profissional/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TicketController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Ticket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TicketController",
+    "Method": "PostAsync",
+    "RelativePath": "Ajax/Ticket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Ticket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TicketController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Ticket/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TicketController",
+    "Method": "PutByIdAsync",
+    "RelativePath": "Ajax/Ticket/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Ticket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TicketController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "Ajax/Ticket/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TipoServicoController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/TipoServico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TipoServicoController",
+    "Method": "PostAsync",
+    "RelativePath": "Ajax/TipoServico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.TipoServico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TipoServicoController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/TipoServico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TipoServicoController",
+    "Method": "PutByIdAsync",
+    "RelativePath": "Ajax/TipoServico/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.TipoServico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.TipoServicoController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "Ajax/TipoServico/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.UsuarioController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.UsuarioController",
+    "Method": "PostAsync",
+    "RelativePath": "Ajax/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Empresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.UsuarioController",
+    "Method": "GetAsync",
+    "RelativePath": "Ajax/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.UsuarioController",
+    "Method": "PutByIdAsync",
+    "RelativePath": "Ajax/Usuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "SoftOS.BLL.Models.Empresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SoftOS.API.Controllers.UsuarioController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "Ajax/Usuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
