@@ -15,7 +15,7 @@ builder.Services.AddHttpContextAccessor();
 
 builder
     .Services.AddScoped<IAuthService, AuthService>()
-    .AddScoped<IUsuarioService, EmpresaService>()
+    .AddScoped<IEmpresaService, EmpresaService>()
     .AddScoped<IClienteService, ClienteService>()
     .AddScoped<IOrdemServicoService, OrdemServicoService>()
     .AddScoped<IProfissionalService, ProfissionalService>()

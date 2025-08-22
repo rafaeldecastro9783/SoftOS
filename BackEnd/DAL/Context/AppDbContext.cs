@@ -7,7 +7,7 @@ namespace SoftOS.DAL.Context;
 
 public partial class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
-    public DbSet<Empresa> Usuarios { get; set; } = null!;
+    public DbSet<Empresa> Empresas { get; set; } = null!;
     public DbSet<OrdemServico> OrdensServicos { get; set; } = null!;
     public DbSet<TipoServico> TipoServicos { get; set; } = null!;
     public DbSet<Profissional> Profissionais { get; set; } = null!;

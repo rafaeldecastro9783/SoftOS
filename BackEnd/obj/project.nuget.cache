@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xgOBlW2xBQ0=",
+  "dgSpecHash": "gmo2FkoAOP4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\SoftOS.csproj",
+  "projectFilePath": "C:\\Users\\rafael.castro\\source\\repos\\BackEnd\\SoftOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafael.castro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rafael.castro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

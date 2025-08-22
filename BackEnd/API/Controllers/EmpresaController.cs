@@ -8,9 +8,9 @@ namespace SoftOS.API.Controllers;
 
 [Autorizar(JwtSoPermissao.Empresa)]
 
-public class UsuarioController(IUsuarioService service) : AjaxController
+public class UsuarioController(IEmpresaService service) : AjaxController
 {
-    private readonly IUsuarioService _service = service;
+    private readonly IEmpresaService _service = service;
 
     [HttpGet]
     public async Task<IActionResult> GetAsync() =>
@@ -24,8 +24,8 @@ public class UsuarioController(IUsuarioService service) : AjaxController
     public async Task<IActionResult> PostAsync(Empresa model) =>
         await ExecuteAsync(async () =>
         {
-            var usuario = await _service.CreateAsync(model);
-            return Created($"/{usuario.Id}", usuario);
+            var empresa = await _service.CreateAsync(model);
+            return Created($"/{empresa.Id}", empresa);
         });
 
     [HttpPut("{id}")]

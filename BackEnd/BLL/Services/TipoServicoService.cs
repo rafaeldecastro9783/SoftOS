@@ -38,8 +38,8 @@ namespace SoftOS.BLL.Services
             throw new ServiceException(
                 HttpStatusCode.NotFound,
                 TemaModal.Aviso,
-                "Ordem de Serviço não encontrada",
-                "Não foi encontrada nenhuma Ordem de Serviço correspondente"
+                "Tipo de Serviço não encontrada",
+                "Não foi encontrada nenhum Tipo de Serviço correspondente"
             );
         }
 

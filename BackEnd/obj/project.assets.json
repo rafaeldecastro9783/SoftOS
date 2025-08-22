@@ -4153,11 +4153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\SoftOS.csproj",
+      "projectUniqueName": "C:\\Users\\rafael.castro\\source\\repos\\BackEnd\\SoftOS.csproj",
       "projectName": "SoftOS",
-      "projectPath": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\SoftOS.csproj",
+      "projectPath": "C:\\Users\\rafael.castro\\source\\repos\\BackEnd\\SoftOS.csproj",
       "packagesPath": "C:\\Users\\rafael.castro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafael.castro\\source\\repos\\SoftOS\\obj\\",
+      "outputPath": "C:\\Users\\rafael.castro\\source\\repos\\BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

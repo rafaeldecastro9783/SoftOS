@@ -13,13 +13,13 @@ namespace SoftOS.BLL.Models
         public string Email { get; set; } = string.Empty;
         public string Telefone { get; set; } = string.Empty;
         public string Cpf { get; set; } = string.Empty;
-        public ProfissionalCargo Cargo { get; set; } = ProfissionalCargo.Tecnico;
+        public ProfissionalCargo Cargo { get; set; } = ProfissionalCargo.Administrador;
         public bool Ativo { get; set; } = true;
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime DataCriacao { get; set; } = DateTime.Now;
         public DateTime? DataDesativacao { get; set; }
-        public virtual ICollection<Empresa>? Empresa { get; set; }
-        public virtual ICollection<OrdemServico>? OrdensServico { get; set; }
-        public virtual ICollection<Ticket>? Tickets { get; set; }
+        public virtual ICollection<Empresa>? Empresa { get; set; } = [];
+        public virtual ICollection<OrdemServico>? OrdensServico { get; set; } = [];
+        public virtual ICollection<Ticket>? Tickets { get; set; } = [];
     }
 }

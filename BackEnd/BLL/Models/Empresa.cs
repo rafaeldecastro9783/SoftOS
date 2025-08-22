@@ -18,9 +18,9 @@ namespace SoftOS.BLL.Models
         public string Pais { get; set; } = string.Empty;
         public string? Cnpj { get; set; }
         public bool Ativo { get; set; } = true;
-        public virtual ICollection<Profissional>? Profissionais { get; set; }
-        public virtual ICollection<Cliente>? Clientes { get; set; }
-        public virtual ICollection<Ticket>? Tickets { get; set; }
-        public virtual ICollection<OrdemServico>? OrdemServicos { get; set; }
+        public virtual ICollection<Profissional>? Profissionais { get; set; } = [];
+        public virtual ICollection<Cliente>? Clientes { get; set; } = [];
+        public virtual ICollection<Ticket>? Tickets { get; set; } = [];
+        public virtual ICollection<OrdemServico>? OrdemServicos { get; set; } = [];
     }
 }

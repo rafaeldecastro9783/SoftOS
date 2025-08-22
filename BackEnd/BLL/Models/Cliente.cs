@@ -20,8 +20,6 @@ public class Cliente : ILoginModel
     public bool IsActive { get; set; } = true;
     public int? EmpresaId { get; set; }
     public virtual Empresa? Empresa { get; set; }
-    public int? OrdemServicolId { get; set; }
     public virtual ICollection<OrdemServico>? OrdemServico { get; set; }
-    public int? Ticketid { get; set; }
     public virtual ICollection<Ticket>? Ticket { get; set; }
 }

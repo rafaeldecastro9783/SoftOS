@@ -7,7 +7,7 @@ using SoftOS.DAL.Context;
 
 #nullable disable
 
-namespace SoftOS.DAL.Micrations
+namespace SoftOS.DAL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -22,12 +22,12 @@ namespace SoftOS.DAL.Micrations
                     b.Property<int>("EmpresaId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("ProfissionalId")
+                    b.Property<int>("ProfissionaisId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("EmpresaId", "ProfissionalId");
+                    b.HasKey("EmpresaId", "ProfissionaisId");
 
-                    b.HasIndex("ProfissionalId");
+                    b.HasIndex("ProfissionaisId");
 
                     b.ToTable("EmpresaProfissional");
                 });
@@ -75,9 +75,6 @@ namespace SoftOS.DAL.Micrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("OrdemServicolId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Pais")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -89,9 +86,6 @@ namespace SoftOS.DAL.Micrations
                     b.Property<string>("Telefone")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int?>("Ticketid")
-                        .HasColumnType("INTEGER");
 
                     b.Property<int>("Tipo")
                         .HasColumnType("INTEGER");
@@ -138,9 +132,6 @@ namespace SoftOS.DAL.Micrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("ClienteId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Cnpj")
                         .HasColumnType("TEXT");
 
@@ -163,26 +154,17 @@ namespace SoftOS.DAL.Micrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("OrdemServicoId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Pais")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("ProfissionalId")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Telefone")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("TicketId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Empresas");
 
                     b.HasData(
                         new
@@ -191,16 +173,12 @@ namespace SoftOS.DAL.Micrations
                             Ativo = true,
                             Cep = "",
                             Cidade = "Maceió",
-                            ClienteId = 0,
                             Email = "softdotpro@softdotpro.com",
                             Endereco = "",
                             Estado = "AL",
                             Nome = "SoftDotPro",
-                            OrdemServicoId = 0,
                             Pais = "",
-                            ProfissionalId = 0,
-                            Telefone = "81999493640",
-                            TicketId = 0
+                            Telefone = "81999493640"
                         });
                 });
 
@@ -232,9 +210,6 @@ namespace SoftOS.DAL.Micrations
                         .HasColumnType("TEXT");
 
                     b.Property<int>("ProfissionalId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("TicketId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("TipoServicoId")
@@ -309,9 +284,9 @@ namespace SoftOS.DAL.Micrations
                         {
                             Id = 1,
                             Ativo = true,
-                            Cargo = 3,
+                            Cargo = 0,
                             Cpf = "",
-                            DataCriacao = new DateTime(2025, 7, 30, 8, 59, 0, 765, DateTimeKind.Local).AddTicks(5563),
+                            DataCriacao = new DateTime(2025, 8, 4, 15, 57, 23, 708, DateTimeKind.Local).AddTicks(2356),
                             Email = "profissional1@softdotpro.com",
                             Guid = new Guid("f47ac10b-58cc-4372-a567-0e02b2c3d479"),
                             Login = "profissional1",
@@ -330,7 +305,7 @@ namespace SoftOS.DAL.Micrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("ClienteId")
+                    b.Property<int?>("ClienteId")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime?>("DataConclusao")
@@ -345,10 +320,10 @@ namespace SoftOS.DAL.Micrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("EmpresaId")
+                    b.Property<int?>("EmpresaId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("OrdemServicoId")
+                    b.Property<int?>("OrdemServicoId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int?>("ProfissionalId")
@@ -402,7 +377,7 @@ namespace SoftOS.DAL.Micrations
 
                     b.HasOne("SoftOS.BLL.Models.Profissional", null)
                         .WithMany()
-                        .HasForeignKey("ProfissionalId")
+                        .HasForeignKey("ProfissionaisId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -410,7 +385,7 @@ namespace SoftOS.DAL.Micrations
             modelBuilder.Entity("SoftOS.BLL.Models.Cliente", b =>
                 {
                     b.HasOne("SoftOS.BLL.Models.Empresa", "Empresa")
-                        .WithMany("Cliente")
+                        .WithMany("Clientes")
                         .HasForeignKey("EmpresaId");
 
                     b.Navigation("Empresa");
@@ -423,7 +398,7 @@ namespace SoftOS.DAL.Micrations
                         .HasForeignKey("ClienteId");
 
                     b.HasOne("SoftOS.BLL.Models.Empresa", "Empresa")
-                        .WithMany("OrdemServico")
+                        .WithMany("OrdemServicos")
                         .HasForeignKey("EmpresaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -451,21 +426,15 @@ namespace SoftOS.DAL.Micrations
                 {
                     b.HasOne("SoftOS.BLL.Models.Cliente", "Cliente")
                         .WithMany("Ticket")
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ClienteId");
 
                     b.HasOne("SoftOS.BLL.Models.Empresa", "Empresa")
-                        .WithMany("Ticket")
-                        .HasForeignKey("EmpresaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("Tickets")
+                        .HasForeignKey("EmpresaId");
 
                     b.HasOne("SoftOS.BLL.Models.OrdemServico", "OrdemServico")
                         .WithMany("Ticket")
-                        .HasForeignKey("OrdemServicoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OrdemServicoId");
 
                     b.HasOne("SoftOS.BLL.Models.Profissional", "Profissional")
                         .WithMany("Tickets")
@@ -489,11 +458,11 @@ namespace SoftOS.DAL.Micrations
 
             modelBuilder.Entity("SoftOS.BLL.Models.Empresa", b =>
                 {
-                    b.Navigation("Cliente");
+                    b.Navigation("Clientes");
 
-                    b.Navigation("OrdemServico");
+                    b.Navigation("OrdemServicos");
 
-                    b.Navigation("Ticket");
+                    b.Navigation("Tickets");
                 });
 
             modelBuilder.Entity("SoftOS.BLL.Models.OrdemServico", b =>

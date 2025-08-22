@@ -899,21 +899,11 @@
           "empresa": {
             "$ref": "#/components/schemas/Empresa"
           },
-          "ordemServicolId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
           "ordemServico": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/OrdemServico"
             },
-            "nullable": true
-          },
-          "ticketid": {
-            "type": "integer",
-            "format": "int32",
             "nullable": true
           },
           "ticket": {
@@ -973,47 +963,31 @@
             "type": "string",
             "nullable": true
           },
-          "profissionalId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "ativo": {
             "type": "boolean"
           },
-          "profissional": {
+          "profissionais": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Profissional"
             },
             "nullable": true
           },
-          "clienteId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "cliente": {
+          "clientes": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Cliente"
             },
             "nullable": true
           },
-          "ticketId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "ticket": {
+          "tickets": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Ticket"
             },
             "nullable": true
           },
-          "ordemServicoId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "ordemServico": {
+          "ordemServicos": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/OrdemServico"
@@ -1050,10 +1024,6 @@
           },
           "empresa": {
             "$ref": "#/components/schemas/Empresa"
-          },
-          "ticketId": {
-            "type": "integer",
-            "format": "int32"
           },
           "ticket": {
             "type": "array",
@@ -1184,11 +1154,13 @@
           },
           "ordemServicoId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "empresaId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "profissionalId": {
             "type": "integer",
@@ -1197,7 +1169,8 @@
           },
           "clienteId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "descricao": {
             "type": "string",
